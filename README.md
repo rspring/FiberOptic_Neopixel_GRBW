@@ -8,6 +8,6 @@ I adapted the code to suit my GRBW addressable LED strips.
 1) The FastLED library does not support these GRBW strips, but Neopixel does.
 2) But the original code for the 'Noise effect' as sugested is only available for FastLED.
 
-So I initialize both libraries, and let FastLED do the work, then in the final stage I copy the FastLED RGB values to the Neopixel strip and assign the bri(brightness) value (divided by 4) to the white LED.
+So I now use both libraries, and let FastLED do the work, then in the final stage I copy the FastLED RGB values to the Neopixel strip and assign the dimmed bri(brightness) value (divided by 4) to the white LED.
 
 The result is a more pastel tint color used in the visualization of the 'Noise Effect' loop.
