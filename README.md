@@ -11,3 +11,4 @@ I adapted the code to suit my GRBW addressable LED strips.
 So I now use both libraries, and let FastLED do the work, then in the final stage I copy the FastLED RGB values to the Neopixel strip and assign the dimmed bri(brightness) value (divided by 4) to the white LED.
 
 The result is a more pastel tint color used in the visualization of the 'Noise Effect' loop.
+![FiberOptic LED Lamp](/images/fiber-optic-led-lamp.jpg)
